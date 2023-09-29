@@ -18,16 +18,14 @@ body {
     width: 840px;
     padding: 56px;
     border-radius: 24px 24px 200px 24px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 100px auto;
 }
 
 .form-inputs {
     display: flex;
     justify-content: flex-start;
     align-self: stretch;
-    gap: 32px;
+    gap: 37px;
 }
 
 .form-input {
@@ -49,7 +47,7 @@ body {
 .form-input input {
     border-radius: 8px;
     border-color: gray;
-    width: 160px;
+    width: 125px;
     padding: 12px 24px;
     font-family: Poppins;
     font-size: 32px;
@@ -60,28 +58,19 @@ body {
 .form-line {
     content: '';
     height: 1px;
-    width: 90%;
+    width: 83%;
     background-color: #716F6F;
 }
 
 .form-send {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .form-btn {
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-}
-
-.form-btn img {
-    display: inline-block;
-    width: 96px;
-    height: 96px;
+    width: 100px;
+    height: 115px;
 }
 
 .result {
@@ -91,6 +80,10 @@ body {
     font-weight: 800;
     line-height: 110%; 
     letter-spacing: -2.08px;
+    margin-bottom: 30px;
+}
+
+.result p {
     margin-bottom: 10px;
 }
 
