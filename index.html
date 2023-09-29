@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Age calculator app</title>
@@ -15,23 +18,46 @@
   </style>
 </head>
 <body>
-
-  Day
-  DD
-
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="outer-container">
+    <div class="container">
+      <form class="form" action="#" method="get">
+        <div class="form-inputs">
+          <div class="calculator-days form-input">
+            <label for="days">Day</label>
+            <input type="text" id="days">
+          </div>
+        
+          <div class="calculator-months form-input">
+            <label for="months">Month</label>
+            <input type="text" id="months">
+          </div>
+        
+          <div class="calculator-years form-input">
+            <label for="years">Year</label>
+            <input type="text" id="years">
+          </div>
+        </div>
+        <!-- /.form-inputs -->
+        <div class="form-send">
+          <div class="form-line"></div>
+          <button class="form-btn"><img src="assets/images/btn.svg" alt="button"></button>
+        </div>
+      </form>
+    
+      <div class="result">
+        <p><span>88</span> years</p>
+        <p><span>5</span> months</p>
+        <p><span>14</span> days</p>
+      </div>
+      <!-- /.result -->
+    
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+    <!-- /.container -->
   </div>
+  <!-- outer-container/ -->
 </body>
 </html>
